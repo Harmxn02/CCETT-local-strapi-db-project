@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "detection_logs",
+  "info": {
+    "singularName": "detection-log",
+    "pluralName": "detection-logs",
+    "displayName": "DetectionLog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Timestamp": {
+      "type": "string",
+      "required": true
+    },
+    "Detectionstatus": {
+      "type": "string"
+    }
+  }
+}
